@@ -1,0 +1,173 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	font-family: sans-serif;
+	width: 100%;
+	margin: 0;
+}
+body {
+	width: 100%;
+	margin: 0;
+}
+@media (max-width: 768px) {
+	.form {
+		width: 90%;
+		margin: 5%;
+		padding: 5%;
+		border: 2px solid black;
+		background: beige;
+		color: hsl(230, 29%, 20%);
+		border-radius: 25px;
+	}
+	.lab-h1 {
+		font-size: 28px;
+		text-align: center;
+	}
+	main {
+		width: 80%;
+		margin: 10%;
+	}
+	input[type="number"] {
+		width: 90%;
+		margin: 5%;
+		height: 40px;
+		background: whitesmoke;
+		font-size: 16px;
+		padding: 8px;
+		color: maroon;
+		border: 1px solid chocolate;
+		font-family: 'Iconsolata', monospace;
+	}
+	input[type="number"]:hover {
+		border: 1px solid brown;
+	}
+	input:focus {
+		outline: none;
+	}
+ button {
+ 	display: none;
+		background: hsl(230, 29%, 20%);
+		color: gold;
+		border: none;
+		height: 40px;
+		font-size: 17px;
+		width: 60%;
+		margin: 5% 20% 5% 20%;
+		font-family: 'Iconsolata', serif;
+	}
+	button:hover {
+		height: 42px;
+		background: hsl(230, 29%, 35%);
+	}
+	input[type="submit"] {
+		background: hsl(230, 29%, 20%);
+		color: gold;
+		border: none;
+		height: 40px;
+		font-size: 17px;
+		width: 60%;
+		margin:  5% 20% 5% 20%;
+		font-family: 'Iconsolata', serif;
+	}
+	input[type="submit"]:hover {
+		height: 42px;
+		background: hsl(230, 29%, 35%);
+	}
+	.resultParas {
+		width: 90%;
+		margin: 5%;
+		font-size: 18px;
+		font-weight: 300;
+		color: chocolate;
+		text-align: center;
+		font-family: 'Iconsolata', monospace;
+	}
+	.lastResult {
+	 font-size: 28px;
+	 font-weight: 500;
+	 padding: 3px;
+ }
+ h2 {
+ 	 text-align: center;
+ }
+}
+@media (min-width: 769px) {
+	.form {
+		width: 60%;
+		margin: 20%;
+		padding: 5%;
+		border: 2px solid black;
+		background: beige;
+		color: hsl(230, 29%, 20%);
+		border-radius: 25px;
+	}
+	.lab-h1 {
+		font-size: 28px;
+		text-align: center;
+	}
+	main {
+		width: 70%;
+		margin: 15%;
+	}
+	input[type="number"] {
+		width: 90%;
+		margin: 5%;
+		height: 40px;
+		background: whitesmoke;
+		font-size: 16px;
+		padding: 8px;
+		color: maroon;
+		border: 1px solid chocolate;
+		font-family: 'Iconsolata', monospace;
+	}
+	input[type="number"]:hover {
+		border: 1px solid brown;
+	}
+	input:focus {
+		outline: none;
+	}
+ button {
+ 	display: none;
+		background: hsl(230, 29%, 20%);
+		color: gold;
+		border: none;
+		height: 40px;
+		font-size: 17px;
+		width: 28%;
+		margin: 5% 36% 5% 36%;
+		font-family: 'Iconsolata', serif;
+	}
+	button:hover {
+		height: 42px;
+		background: hsl(230, 29%, 35%);
+	}
+	input[type="submit"] {
+		background: hsl(230, 29%, 20%);
+		color: gold;
+		border: none;
+		height: 40px;
+		font-size: 17px;
+		width: 28%;
+		margin: 5% 36% 5% 36%;
+		font-family: 'Iconsolata', serif;
+	}
+	input[type="submit"]:hover {
+		height: 42px;
+		background: hsl(230, 29%, 35%);
+	}
+	.resultParas {
+		width: 90%;
+		margin: 5%;
+		font-size: 24px;
+		font-weight: 300;
+		color: chocolate;
+		text-align: center;
+		font-family: 'Iconsolata', monospace;
+	}
+	.lastResult {
+	 font-size: 32px;
+	 font-weight: 500;
+	 padding: 3px;
+ }
+}
